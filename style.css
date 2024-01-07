@@ -1,0 +1,84 @@
+/* This is the Root  */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body  */
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: rgb(170, 52, 255);
+}
+
+/* Wrapper Div  */
+.wrapper{
+    border: 1px solid black;
+    position: relative;
+    width: 615px;
+    height: 500px;
+    background-color: white;
+    border-radius: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Image section  */
+.image{
+    height: 205px;
+    width: 260px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    border-radius: 25px;
+    border: 2px solid black;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .3);
+}
+
+/* Heading  */
+h2{
+    padding: auto;
+    font-size: 3em;
+    margin: 45px 20px;
+}
+
+/* Button group  */
+.btn-group{
+    width: 100%;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    font-style: normal;
+    color: white;
+    position: absolute;
+    width: 100px;
+    height: inherit;
+    border-radius: 20px;
+    border: 2px solid black;
+    font-size: 1.2em;
+    cursor: pointer;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .3);
+}
+
+button:nth-child(1) {
+    margin-left: -200px;
+    background-color: rgb(185, 35, 255);
+}
+
+button:nth-child(1):hover {
+    margin-left: -200px;
+    background-color: rgb(174, 0, 255);
+}
+
+
+button:nth-child(2) {
+    margin-right: -200px;
+    background-color: rgb(220, 161, 246);
+}
