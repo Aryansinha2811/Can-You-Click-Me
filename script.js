@@ -12,7 +12,7 @@ document.addEventListener("DOMContentLoaded", function() {
         console.log(existingImage); // Check if the existing image is correctly selected
 
         const img = document.createElement('img');
-        img.src = '/Image/Gay meme.jpg';
+        img.src = 'https://raw.githubusercontent.com/Aryansinha2811/Can-You-Click-Me/master/Image/Gay%20meme.jpg';
         img.alt = 'New Image'; // Set alt attribute for accessibility
         img.style.width = '260px';
         img.style.height = '205px';
